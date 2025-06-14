@@ -31,26 +31,27 @@ import Finance from "../assets/images/TeamMembers/Finance.jpg";
 import ProjectManager from "../assets/images/TeamMembers/Project-manager.jpg";
 import Frontend1 from "../assets/images/TeamMembers/Frontend1.jpg";
 import Frontend2 from "../assets/images/TeamMembers/Frontend2.jpg";
-import Backend1 from "../assets/images/TeamMembers/Backend1.jpg";
-import Backend2 from "../assets/images/TeamMembers/Backend2.jpg";
-import Mobile1 from "../assets/images/TeamMembers/Mobile1.jpg";
-import Mobile2 from "../assets/images/TeamMembers/Mobile2.jpg";
-import UIUX1 from "../assets/images/TeamMembers/UIUX1.jpg";
-import UIUX2 from "../assets/images/TeamMembers/UIUX2.jpg";
+import Mehdi from "../assets/images/TeamMembers/Mehdi.jpg";
+// import Backend1 from "../assets/images/TeamMembers/Backend1.jpg";
+// import Backend2 from "../assets/images/TeamMembers/Backend2.jpg";
+// import Mobile1 from "../assets/images/TeamMembers/Mobile1.jpg";
+// import Mobile2 from "../assets/images/TeamMembers/Mobile2.jpg";
+// import UIUX1 from "../assets/images/TeamMembers/UIUX1.jpg";
+// import UIUX2 from "../assets/images/TeamMembers/UIUX2.jpg";
 
 export const Services = [
   {
-    title: "Web Development",
+    title: "طراحی وبسایت",
     imageUrl: Web,
     animation: "left",
   },
   {
-    title: "Mobile Development",
+    title: "طراحی نرم افزار ",
     imageUrl: Mobile,
     animation: "up",
   },
   {
-    title: "UI/UX Design",
+    title: "طراحی رابط کاربری",
     imageUrl: UIUX,
     animation: "right",
   },
@@ -141,10 +142,10 @@ export const Advantages = [
 export const Testimonials = [
   {
     id: 1,
-    name: "Sasha Rose",
-    company: "Owner, Surveyor Corps",
+    name: "ساشا رز",
+    company: "مالک، شرکت نقشه برداری",
     testimoni:
-      "Thanks for Racxstudio, you guys are the best! Keep up the great work!",
+      "!ممنون از استودیو پویاگران رایان گستر فرزان، شما بهترین هستید! به کار عالی ادامه دهید",
     imageUrl: Sasha,
   },
   {
@@ -166,63 +167,63 @@ export const Testimonials = [
 
 export const TeamMembers = [
   {
-    name: "Rach David",
+    name: "مهدی اسپانلو",
     position: "CEO",
     imageUrl: CEO,
   },
   {
-    name: "Pauline Sydney",
-    position: "HRD",
+    name: "علی فتحی",
+    position: "🔧 Developer",
     imageUrl: HRD,
   },
   {
-    name: "Granger Watterson",
-    position: "Finance",
-    imageUrl: Finance,
+    name: "مهدی ابراهیمی",
+    position: "🔧 Developer",
+    imageUrl: Mehdi,
   },
   {
-    name: "Tom Jimmy",
+    name: "علیرضا باقری",
     position: "Project Manager",
     imageUrl: ProjectManager,
   },
   {
-    name: "Jim Hendrix",
+    name: "محمد حسین اسپانلو",
     position: "Front-end Developer",
     imageUrl: Frontend1,
   },
   {
-    name: "Calvin Max",
+    name: "علیرضا شوبی",
     position: "Front-end Developer",
     imageUrl: Frontend2,
   },
-  {
-    name: "Hawkins Jim",
-    position: "Back-end Developer",
-    imageUrl: Backend1,
-  },
-  {
-    name: "Don Bizaro",
-    position: "Back-end Developer",
-    imageUrl: Backend2,
-  },
-  {
-    name: "Bill Markinson",
-    position: "Mobile Developer",
-    imageUrl: Mobile1,
-  },
-  {
-    name: "Igor Kavarov",
-    position: "Mobile Developer",
-    imageUrl: Mobile2,
-  },
-  {
-    name: "Freddie Curl",
-    position: "UI/UX Designer",
-    imageUrl: UIUX2,
-  },
-  {
-    name: "Monica Lovegood",
-    position: "UI/UX Designer",
-    imageUrl: UIUX1,
-  },
+  // {
+  //   name: "Hawkins Jim",
+  //   position: "Back-end Developer",
+  //   imageUrl: Backend1,
+  // },
+  // {
+  //   name: "Don Bizaro",
+  //   position: "Back-end Developer",
+  //   imageUrl: Backend2,
+  // },
+  // {
+  //   name: "Bill Markinson",
+  //   position: "Mobile Developer",
+  //   imageUrl: Mobile1,
+  // },
+  // {
+  //   name: "Igor Kavarov",
+  //   position: "Mobile Developer",
+  //   imageUrl: Mobile2,
+  // },
+  // {
+  //   name: "Freddie Curl",
+  //   position: "UI/UX Designer",
+  //   imageUrl: UIUX2,
+  // },
+  // {
+  //   name: "Monica Lovegood",
+  //   position: "UI/UX Designer",
+  //   imageUrl: UIUX1,
+  // },
 ];

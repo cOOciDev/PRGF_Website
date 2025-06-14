@@ -28,11 +28,11 @@ export default function Portfolio({ data }) {
         {data.map((item, index) => (
           // eslint-disable-next-line react/no-array-index-key
           <Fade
+            key={item.id}
             direction="up"
             triggerOnce
             bottom
             delay={500 * index}
-            key={index}
           >
             <Button type="link" href={`/project/${item.id}`}>
               <div className="group rounded-2xl shadow-xl w-auto m-3 transform transition duration-500 hover:scale-110 portofolio-card">

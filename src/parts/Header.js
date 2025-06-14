@@ -19,7 +19,17 @@ export default function Header() {
   const path = location.pathname;
 
   return (
-    <header className="header">
+    <header
+      className="header"
+      // style={{
+      //   position: "fixed",
+      //   top: 0,
+      //   left: 0,
+      //   right: 0,
+      //   zIndex: 999,
+      //   backgroundColor: "#e5e7eb",
+      // }}
+    >
       <div className="flex justify-between px-4 lg:px-0">
         <BrandIcon />
 
@@ -92,7 +102,7 @@ export default function Header() {
             type="link"
             href="/discuss-project"
           >
-            بحث در مورد پروژه
+            سفارش پروژه
           </Button>
         </li>
       </ul>
@@ -117,7 +127,7 @@ export default function Header() {
                 type="link"
                 href="/"
               >
-                Home
+                خانه
               </Button>
             </li>
             <li className="py-2 bg-white">
@@ -128,7 +138,7 @@ export default function Header() {
                 type="link"
                 href="/team"
               >
-                Team
+                تیم
               </Button>
             </li>
             <li className="py-2 bg-white">
@@ -139,7 +149,7 @@ export default function Header() {
                 type="link"
                 href="/project"
               >
-                Project
+                پروژه ها
               </Button>
             </li>
             <li className="mx-auto my-9 bg-white">
@@ -148,7 +158,7 @@ export default function Header() {
                 type="link"
                 href="/discuss-project"
               >
-                Discuss Project
+                سفارش پروژه
               </Button>
             </li>
           </ul>

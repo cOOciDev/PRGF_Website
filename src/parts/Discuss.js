@@ -23,13 +23,14 @@ export default function Discuss() {
                 type="link"
                 className="flex bg-white bg-yellow-300 text-blue-800 text-xl lg:text-2xl xl:text-xl tracking-wider items-center justify-center w-56 lg:w-96 lg:h-24 xl:w-56 h-20 p-5 border-2 border-dark-theme-purple shadow-xl rounded-full mt-6 sm:mt-0 sm:ml-4 lg:ml-0 xl:ml-12 transform transition duration-600 hover:scale-105"
               >
-                Lets Discuss!
+                بیایید بحث کنیم!
               </Button>
             </Fade>
           </div>
           <Fade delay={300} triggerOnce>
             <p className="font-light p-5 sm:p-0 text-lg sm:text-xl lg:text-2xl xl:text-xl mb-1">
-              Lets discuss it and make your dream software come true!
+              بیایید در مورد آن بحث کنیم و نرم‌افزار رویایی شما را به واقعیت
+              تبدیل کنیم!
             </p>
           </Fade>
         </div>

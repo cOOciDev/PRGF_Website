@@ -20,7 +20,7 @@ export default function Footer() {
             </p>
           </div>
           <div className="w-1/3 mt-0 ml-16 mr-0 sm:ml-0 sm:mr-5">
-            <h1 className="text-lg text-theme-blue pt-4 pb-2">Office</h1>
+            <h1 className="text-lg text-theme-blue pt-4 pb-2">دفتر</h1>
             <p className="text-lg text-gray-400 font-light">
               PRGF.studio@gmail.com
             </p>
@@ -29,7 +29,9 @@ export default function Footer() {
             </p>
           </div>
           <div className="w-1/3 ml-16 sm:ml-0 mt-0">
-            <h1 className="text-lg text-theme-blue pt-4 pb-2">Social</h1>
+            <h1 className="text-lg text-theme-blue pt-4 pb-2">
+              شبکه های اجتماعی
+            </h1>
             <Button
               href="https://www.instagram.com/racmathafidz/"
               type="link"
@@ -37,7 +39,7 @@ export default function Footer() {
               className="flex text-lg text-gray-400 font-light hover:underline"
               isExternal
             >
-              Instagram
+              اینستاگرام
             </Button>
             <Button
               href="https://www.linkedin.com/in/racmat-hafidz-89982a156/"
@@ -46,7 +48,7 @@ export default function Footer() {
               className="flex text-lg text-gray-400 font-light hover:underline"
               isExternal
             >
-              LinkedIn
+              لینکدین
             </Button>
             <Button
               href="https://github.com/racmathafidz"
@@ -55,13 +57,13 @@ export default function Footer() {
               className="flex text-lg text-gray-400 font-light hover:underline"
               isExternal
             >
-              Github
+              گیت‌هاب
             </Button>
           </div>
         </div>
         <div className="flex-col text-center mt-7">
           <p className="text-lg text-gray-400 font-light">
-            Copyright 2024 - All rights reserved - PRGFstudio
+            Copyright 2024 - All rights reserved - cOOciDev
           </p>
           <div className="flex-row">
             <p className="inline-block text-lg text-gray-400 font-light">
